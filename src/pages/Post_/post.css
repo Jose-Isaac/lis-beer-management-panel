@@ -1,0 +1,90 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 3rem 0;
+}
+
+.card-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.13);
+  width: 1404px;
+  height: 793px;
+  border-radius: 20px;
+ 
+}
+
+.card-body-post {
+  margin-top: 25px;
+}
+
+.fields{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  margin-left: 15px;
+  background-color: #FDDB3A;
+  padding: 10px 20px;
+  border-radius: 20px;
+
+  color: black;
+  font-size: 1.2rem;
+  font-family: Poppins;
+  font-weight: bold;
+
+  transform: translateY(0.6em);
+}
+
+input {
+  width: 100%;
+  border-radius: 20px;
+  width: 417px;
+  height: 51px;
+  border: 0;
+  outline: 0;
+
+  font-family: Montserrat;
+  font-size: 1.2rem;
+
+  padding-left: 15px;
+}
+
+
+.btn-post {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-post button{
+  font-family: Heebo;
+  font-weight: 800;
+  font-size: 1.3rem;
+
+  padding: 5px 50px;
+  color: #FFF;
+  background-color: #3DECB1;
+  
+  border: 0;
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.btn-post svg {
+  width: 66px;
+  height: 66px;
+  color: yellow;
+  cursor: pointer;
+}
+
+.error-message {
+  color: rgb(240, 47, 47);
+}
